@@ -1,0 +1,30 @@
+app:
+  name: "data-quality-pipeline"
+  version: "1.0.0"
+  environment: "development"
+
+pipeline:
+  batch_size: 1000
+  stop_on_schema_failure: false
+  track_lineage: true
+  max_replay_retries: 3
+
+database:
+  echo_sql: false
+  pool_size: 10
+  max_overflow: 20
+  pool_recycle: 1800
+
+validation:
+  allowed_statuses:
+    - ACTIVE
+    - INACTIVE
+    - SUSPENDED
+  date_format: "%Y-%m-%d"
+  timestamp_format: "%Y-%m-%d %H:%M:%S"
+
+paths:
+  input_dir: "data/input"
+  expected_dir: "data/expected"
+  output_dir: "data/output"
+  quarantine_dir: "data/quarantine"
