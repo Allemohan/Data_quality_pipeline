@@ -140,3 +140,4 @@ class PipelineMetricsTracker:
             "=" * 60,
         ])
         return "\n".join(lines)
+

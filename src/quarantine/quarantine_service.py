@@ -61,3 +61,4 @@ class QuarantineService:
         self.session.flush()
         logger.info(f"Quarantine record {quarantine_id} marked as CORRECTED.")
         return True
+

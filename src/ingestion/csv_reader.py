@@ -108,3 +108,4 @@ class CsvReader:
         except Exception as e:
             logger.error(f"Error reading CSV {path.name}: {e}")
             raise IngestionError(f"Malformed or unreadable CSV file {path.name}: {e}") from e
+

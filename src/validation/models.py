@@ -69,3 +69,4 @@ class ValidatedRecord:
     source_file: str
     source_row_number: int
     run_id: str
+

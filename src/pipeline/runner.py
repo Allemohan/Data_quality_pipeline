@@ -136,3 +136,4 @@ class PipelineRunner:
                 logger.error(f"Unexpected pipeline failure: {e}", exc_info=True)
                 tracker.complete(status="FAILED", error_message=str(e))
                 return tracker
+

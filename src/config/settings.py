@@ -111,3 +111,4 @@ def get_settings() -> Settings:
     settings = Settings()
     settings.paths.ensure_directories()
     return settings
+

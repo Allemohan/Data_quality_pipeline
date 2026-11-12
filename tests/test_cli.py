@@ -55,3 +55,4 @@ def test_cli_ingest_and_reconcile(tmp_path, make_csv_file):
         with pytest.raises(SystemExit) as exit_info:
             main()
         assert exit_info.value.code == 0
+

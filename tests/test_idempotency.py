@@ -58,3 +58,4 @@ def test_pipeline_idempotency(in_memory_engine, make_csv_file):
 
     # Crucial assertion: Total records in target table MUST NOT duplicate
     assert count_2 == 2
+

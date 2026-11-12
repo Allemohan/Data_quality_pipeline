@@ -68,3 +68,4 @@ def test_quarantine_correction_transition(db_session):
     assert updated_rec.corrected_at is not None
     payload = json.loads(updated_rec.raw_payload)
     assert payload["email"] == "fixed@example.com"
+

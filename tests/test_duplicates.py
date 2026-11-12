@@ -25,3 +25,4 @@ def test_batch_duplicate_detection():
     for d in duplicates:
         assert d.primary_error.error_code == ErrorCodes.DUPLICATE_RECORD
         assert d.source_record_id == "101"
+

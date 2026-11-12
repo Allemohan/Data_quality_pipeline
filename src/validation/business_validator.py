@@ -125,3 +125,4 @@ class BusinessValidator:
             )
 
         return record, None
+

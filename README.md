@@ -551,3 +551,4 @@ Result: PASS
 - **Distributed Streaming**: Transition from single-node chunking to Apache Kafka or PySpark when data sizes exceed single-machine memory or require sub-second streaming.
 - **Operator Web UI**: Implement a lightweight Streamlit or FastAPI dashboard for reviewing quarantined rows and applying one-click web corrections.
 - **SCD Type 2 History**: Add `is_current`, `valid_from`, and `valid_to` columns to `customers` if business requires full temporal change tracking.
+

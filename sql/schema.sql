@@ -87,3 +87,4 @@ CREATE TABLE IF NOT EXISTS replay_runs (
 );
 
 CREATE INDEX IF NOT EXISTS idx_replay_quarantine_id ON replay_runs(quarantine_id);
+

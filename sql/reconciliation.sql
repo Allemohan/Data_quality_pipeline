@@ -85,3 +85,4 @@ SELECT
     updated_at
 FROM customers
 LIMIT 10;
+

@@ -11,3 +11,4 @@ SET
     type_name = EXCLUDED.type_name,
     description = EXCLUDED.description,
     is_active = EXCLUDED.is_active;
+

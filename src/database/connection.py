@@ -115,3 +115,4 @@ def init_db(engine: Optional[Engine] = None) -> None:
     with get_db_session(eng) as session:
         seed_reference_data(session)
     logger.info("Database schema initialized and ready.")
+

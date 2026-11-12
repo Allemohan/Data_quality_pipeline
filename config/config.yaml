@@ -28,3 +28,4 @@ paths:
   expected_dir: "data/expected"
   output_dir: "data/output"
   quarantine_dir: "data/quarantine"
+

@@ -65,3 +65,4 @@ class DuplicateValidator:
                 unique_records.append(record)
 
         return unique_records, quarantine_candidates
+

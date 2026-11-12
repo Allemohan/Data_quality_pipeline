@@ -102,3 +102,4 @@ def test_replay_failure_with_retry_increment(db_session):
     audit = db_session.query(ReplayRun).filter_by(quarantine_id=q_rec.quarantine_id).first()
     assert audit is not None
     assert audit.status == "FAILED"
+

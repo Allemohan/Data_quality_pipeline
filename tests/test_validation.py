@@ -144,3 +144,4 @@ def test_business_validator_negative_customer_id():
     assert valid_rec is None
     assert cand is not None
     assert cand.primary_error.error_code == ErrorCodes.INVALID_CUSTOMER_ID
+

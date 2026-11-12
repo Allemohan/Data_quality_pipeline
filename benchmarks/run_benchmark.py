@@ -54,3 +54,4 @@ def benchmark_scale(sizes=(1000, 10000, 100000), seed: int = 42) -> None:
 
 if __name__ == "__main__":
     benchmark_scale()
+

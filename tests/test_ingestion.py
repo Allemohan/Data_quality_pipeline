@@ -77,3 +77,4 @@ def test_ingestion_missing_file_raises_error():
     reader = CsvReader()
     with pytest.raises(IngestionError, match="File not found"):
         list(reader.read_records(Path("non_existent_file.csv"), run_id="RUN-ERR"))
+

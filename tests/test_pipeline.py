@@ -104,3 +104,4 @@ def test_pipeline_empty_file_handling(in_memory_engine, tmp_path: Path):
     assert tracker.valid_count == 0
     assert tracker.rejected_count == 0
     assert tracker.status == "SUCCESS"
+
